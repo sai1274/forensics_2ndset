@@ -1,0 +1,18 @@
+Initially i tried to conert the file into an executable file and try reverse enginering using the
+command "chmod +x <filename>"
+but no use Then i gave the command 
+
+		"strings revers.me | grep -i 'inctf'"
+
+i didn't get any results then i gave the command 
+
+		"strings revers.me | grep -i '{'" 
+
+Then i manually gone through the output i found it :  
+
+		"*}ss3ug_1_gn1sr3ver_t4_d00g_3ra_u0Y{ftcn"
+
+On reversing this we get inctf{Y0u_ar3_g00d_4t_rev3rs1ng_1_gu3ss}
+it's it the flag format.
+
+

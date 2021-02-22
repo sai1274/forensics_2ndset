@@ -1,0 +1,4 @@
+The magical number of the png is wrong it should be 89 at the starting but it is starting with 90
+on correcting it we will get the flag as below:
+
+"inctf{7th4nk5_f0r_h3lp1ng_m3}"

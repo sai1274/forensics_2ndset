@@ -1,0 +1,17 @@
+I tried opening the image it opened then i though there are no chunk errors. So i though to look into
+the meta data of the image then in the comment section i found this :
+"Njk2ZTYzNzQ2NjdiNzkzMDc1NWY2NzMwNzQ1ZjM3NjgzMzVmNjY2YzM0Njc3ZA=="
+
+This looks as a cipher text and encoded under base64 so i used the command 
+
+print "Njk2ZTYzNzQ2NjdiNzkzMDc1NWY2NzMwNzQ1ZjM3NjgzMzVmNjY2YzM0Njc3ZA==".decode('bas64')
+
+
+Then i got this cipher text:
+"696e6374667b7930755f6730745f3768335f666c34677d"
+
+this cipher text is in the form of hex so i ran the command :
+
+print "696e6374667b7930755f6730745f3768335f666c34677d".decode('hex')
+
+Then i got the flag: inctf{y0u_g0t_7h3_fl4g}
